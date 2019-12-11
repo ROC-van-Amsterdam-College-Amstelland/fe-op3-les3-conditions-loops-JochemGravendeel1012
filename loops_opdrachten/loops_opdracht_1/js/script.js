@@ -1,8 +1,6 @@
 //javascript code
 
-var text = "";
-var i;
+
 for (i = 0; i <= 5; i++) {
-  text += i + "<br>";
+  console.log(i)
 }
-document.getElementById("demo").innerHTML = text;
